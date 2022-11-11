@@ -1,0 +1,55 @@
+Cách dùng 
+// thiết lập sql
+bạn truy cập vào env và thay đổi các giá trị của các biến dưới đây
+tìm đến
+DB_DATABASE=Nhập tên cơ sở dữ liệu
+DB_USERNAME=Nhập tên đăng nhập
+DB_PASSWORD=Nhập mật khẩu
+
+// Thay đổi đường dẫn
+APP_URL=Nhập đường dẫn website của bạn
+
+// Thay đổi project của bạn
+APP_NAME=Nhập tên project của bạn hoặc gì đó
+
+sau khi thay đổi xong 
+bạn truy cập và routes/web.php tìm phần comment //command artisan tới đây
+bạn xoá /* và */ mình đã để
+
+rồi truy cập vào tên web của bạn ví dụ https://viplikesub.biz/runsql nếu hiện done thì hoàn thành 
+sau đó bạn đóng lại như lúc bạn xoá /* */
+
+Tất cả các link cron
+cập nhật chức vụ
+https://viplikesub.biz/api/cron/upgradeLevel
+tạo mã giao dịch cho ngừoi dùng
+https://viplikesub.biz/api/cron/transfer_code
+
+
+nạp thẻ cào
+https://viplikesub.biz/api/callback/tsr
+
+//các link cron nạp ngân hàng
+https://viplikesub.biz/api/callback/mbbank
+https://viplikesub.biz/api/callback/momo
+https://viplikesub.biz/api/callback/vcb
+tthesieure loại chuyển tiền
+https://viplikesub.biz/api/callback/tsrs
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********
+Lưu ý thay đổi những thứ bên trên không được thay đổi thứ gì khác
+*********/
+
+
